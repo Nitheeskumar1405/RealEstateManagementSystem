@@ -47,7 +47,7 @@ Dependencies: Swing for GUI.
 git clone <https://github.com/Nitheeskumar1405/RealEstateManagementSystem.git>
 cd RealEstateManagementSystem
 
-3. Build and Run the Project
+3. Build and Run the Project:
 Open the project in Apache NetBeans or your preferred Java IDE.
-Build and run the HomeScreenGUI class to launch the application.
+Build and run the Property_Rental to launch the application.
 
