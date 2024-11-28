@@ -2,7 +2,7 @@
 public class LandlordTest {
     public static void main(String[] args) {
         Landlord l1 = new Landlord();
-	Landlord l2 = new Landlord("Nitheeskumar", "Oakpark Tralee Co. Kerry", "0871234567", "12344567R", "Available");
+	Landlord l2 = new Landlord("John O' Connor", "Oakpark Tralee Co. Kerry", "0871234567", "12344567R", "Available");
         
         //Test the Null Constructor
         System.out.println(l1);

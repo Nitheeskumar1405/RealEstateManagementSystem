@@ -1,6 +1,7 @@
 
 import java.io.Serializable;
 
+
 public class Property extends PropertyRent implements Serializable{
     
     private final int propertyID_;

@@ -3,7 +3,6 @@ import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
-
 public class propertySaveTester {
     public static void main(String[] args) throws Exception {
         // construct a fitness class

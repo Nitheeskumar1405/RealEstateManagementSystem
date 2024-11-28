@@ -13,7 +13,6 @@ import javax.swing.SwingConstants;
 import static javax.swing.WindowConstants.DISPOSE_ON_CLOSE;
 
 
-
 public class RecordNewPropertyGUI extends JFrame{
     
     private static final int WIDTH = 900;
@@ -21,9 +20,10 @@ public class RecordNewPropertyGUI extends JFrame{
     
     private JLabel addressLine1L, addressLine2L, addressLine3L, countyL, bedsL, propertyTypeL, rentAmountL, propertyStatusL, landlordL, propertyIDL, blankL, blank2L;
     private JTextField addressLine1TF, addressLine2TF, addressLine3TF, countyTF, bedsTF, propertyTypeTF, rentAmountTF, propertyStatusTF, landlordTF, propertyIDTF;
-    private String[] counties = {"Antrim","Armagh","Carlow","Cavan","Clare","Cork","Derry","Donegal","Down",
-            "Dublin","Fermanagh","Galway","Kerry","Kildare","Kilkenny","Laois","Leitrim","Limerick","Longford","Louth","Mayo",
-            "Meath","Monaghan","Offaly","Roscommon","Sligo","Tipperary","Tyrone","Waterford","Westmeath","Wexford","Wicklow"};
+    private String[] counties = {"Alberta", "British Columbia", "Manitoba", "New Brunswick", 
+    "Newfoundland and Labrador", "Northwest Territories", 
+    "Nova Scotia", "Nunavut", "Ontario", "Prince Edward Island", 
+    "Quebec", "Saskatchewan", "Yukon"};
     private JComboBox countyComboBox;
     private JButton addB, cancelB;
     

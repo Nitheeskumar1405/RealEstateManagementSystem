@@ -180,7 +180,7 @@ public class HomeScreenGUI extends JFrame {
         file.addSeparator();
         file.add(exit);
 
-/////Landlord Menu Items////
+//////////Landlord Menu Items/////////////////////////////////////////////////////////////////
         //Add a Landlord
         JMenuItem registerLandlord = new JMenuItem("  Register Landlord", addIcon);
         registerLandlord.setMnemonic(KeyEvent.VK_A);
@@ -250,7 +250,7 @@ public class HomeScreenGUI extends JFrame {
         landlords.add(searchLandlord);
         landlords.add(displayLandlord);
 
-////Properties MenuItems///////
+//////////Properties MenuItems/////////////////////////////////////////////////////////////////
         //Record New Property
         JMenuItem recordNewProperty = new JMenuItem("  Record New Property", addIcon);
         recordNewProperty.setMnemonic(KeyEvent.VK_R);
@@ -362,7 +362,7 @@ public class HomeScreenGUI extends JFrame {
         properties.add(propertiesAvailable);
         properties.add(listPropertiesAvailable);
 
-////Tenants Menu Items////
+//////////Tenants Menu Items/////////////////////////////////////////////////////////////////
         //Register New Tenant
         JMenuItem registerNewTenant = new JMenuItem("  Register New Tenant", addIcon);
         registerNewTenant.setMnemonic(KeyEvent.VK_R);
@@ -474,7 +474,7 @@ public class HomeScreenGUI extends JFrame {
         tenants.add(displayTenants);
         tenants.add(tenantsAvailable);
 
-////Rentals Menu Items///
+//////////Rentals Menu Items/////////////////////////////////////////////////////////////////
         //Process New Rental
         JMenuItem processNewRental = new JMenuItem("  Process New Rental", addIcon);
         processNewRental.setMnemonic(KeyEvent.VK_P);
@@ -547,7 +547,7 @@ public class HomeScreenGUI extends JFrame {
         rentals.add(searchRental);
         rentals.add(displayRentals);
 
-///Help Menu Items///
+//////////Help Menu Items/////////////////////////////////////////////////////////////////
         //The about page
         JMenuItem about = new JMenuItem("  About", aboutIcon);
         about.setMnemonic(KeyEvent.VK_A);

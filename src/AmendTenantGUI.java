@@ -10,14 +10,11 @@ public class AmendTenantGUI extends JFrame {
     
     private JLabel nameL, addressLine1L, addressLine2L, addressLine3L, countyL, tenantPhoneL, tenantPPSL, tenantStatusL,  tenantIDL, blankL, blank2L;
     private JTextField nameTF, addressLine1TF, addressLine2TF, addressLine3TF, countyTF, tenantPhoneTF, tenantPPSTF, tenantStatusTF, tenantIDTF;
-    private String[] provinces = {
-    "Alberta", "British Columbia", "Manitoba", "New Brunswick", 
+    private String[] counties = {"Alberta", "British Columbia", "Manitoba", "New Brunswick", 
     "Newfoundland and Labrador", "Northwest Territories", 
     "Nova Scotia", "Nunavut", "Ontario", "Prince Edward Island", 
-    "Quebec", "Saskatchewan", "Yukon"
-};
-private JComboBox provinceComboBox = new JComboBox(provinces);
-
+    "Quebec", "Saskatchewan", "Yukon"};
+    private JComboBox countyComboBox;
     private JButton addB, cancelB;
     
     public static Tenant tenant_;
@@ -55,7 +52,7 @@ private JComboBox provinceComboBox = new JComboBox(provinces);
         tenantIDTF.setEditable(false);
 
         //County Drop Down Menu
-        countyComboBox = new JComboBox(provinces);
+        countyComboBox = new JComboBox(counties);
         
         nameTF.setText(tenant.getName());
         addressLine1TF.setText(tenant.getAddress());

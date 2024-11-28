@@ -19,9 +19,10 @@ public class RegisterLandlordGUI extends JFrame{
     
     private JLabel nameL, addressLine1L, addressLine2L, addressLine3L, countyL, landLPhoneL, landlordPPSL, landlordStatusL,  landlordIDL, blankL, blank2L;
     private JTextField nameTF, addressLine1TF, addressLine2TF, addressLine3TF, countyTF, landLPhoneTF, landlordPPSTF, landlordStatusTF, landlordIDTF;
-    private String[] counties = {"Antrim","Armagh","Carlow","Cavan","Clare","Cork","Derry","Donegal","Down",
-            "Dublin","Fermanagh","Galway","Kerry","Kildare","Kilkenny","Laois","Leitrim","Limerick","Longford","Louth","Mayo",
-            "Meath","Monaghan","Offaly","Roscommon","Sligo","Tipperary","Tyrone","Waterford","Westmeath","Wexford","Wicklow"};
+    private String[] counties = {"Alberta", "British Columbia", "Manitoba", "New Brunswick", 
+    "Newfoundland and Labrador", "Northwest Territories", 
+    "Nova Scotia", "Nunavut", "Ontario", "Prince Edward Island", 
+    "Quebec", "Saskatchewan", "Yukon"};
     private JComboBox countyComboBox;
     private JButton addB, cancelB;
     
