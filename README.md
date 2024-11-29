@@ -51,3 +51,27 @@ cd RealEstateManagementSystem
 Open the project in Apache NetBeans or your preferred Java IDE.
 Build and run the Property_Rental to launch the application.
 
+**Team Contributions**
+Team Members:
+Nitheeskumar Sivakumar(ID-219600710):
+GUI integrations (HomeScreenGUI), overall system architecture, and core functionality.
+Landlord management and GUI components (Landlord.java, RegisterLandlordGUI.java, AmendLandlordGUI.java).
+
+Pranav Maurya(ID-229660590):
+Tenant management and related tests (Tenant.java, RegisterNewTenantGUI.java, AmendTenantGUI.java).
+
+Jama Omer(ID-209611830):
+Property management, including GUIs and persistence (Property.java, RecordNewPropertyGUI.java, PropertyRent.java).
+
+Syed Almann(ID-229682780):
+Rentals and testing utilities (Rental.java, propertySaveTester.java, propertyLoadTester.java).
+
+**License**
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+**Acknowledgments**
+Developed as part of a software engineering course.
+Special thanks to our professor for guidance and feedback.
+
+
+
